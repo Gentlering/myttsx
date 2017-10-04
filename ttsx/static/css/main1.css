@@ -1,0 +1,30 @@
+.goods_list li{
+    overflow: hidden;
+    position: relative;
+}
+
+.pic-info{
+    width: 250px;
+    height: 112px;
+    background-color:rgba(126,152,75,0.5);
+    color:#fff;
+    position: absolute;
+    left: 0;
+    top:300px;
+    transition: all 1s ease;
+    text-indent: 0.5em;
+    font-size: 15px;
+}
+.goods_list li:hover .pic-info{
+            top: 188px;
+}
+.adv .m-r-up,.m-r-down{
+    display: block;
+    width: 240px;
+    height: 135px;
+    transition: all 2s ease;
+    transform: perspective(800px) rotateY(0deg);
+}
+.m-r-up:hover,.m-r-down:hover{
+    transform: perspective(800px) rotateY(180deg);
+    }
